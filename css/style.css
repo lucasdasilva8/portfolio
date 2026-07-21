@@ -157,8 +157,8 @@ section {
 
 .projects-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
 }
 
 .project {
@@ -227,6 +227,12 @@ section {
 }
 
 /* ── Responsive ── */
+
+@media (max-width: 1024px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 
 @media (max-width: 768px) {
   .site-header {
