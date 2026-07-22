@@ -8,6 +8,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
 }
 
 body {
@@ -199,11 +200,20 @@ section {
 }
 
 .resume-teaser-links {
-  margin-top: 1.25rem;
+  margin-top: 1.5rem;
   font-size: 0.875rem;
   font-weight: 500;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+}
+
+.resume-teaser-links--secondary {
+  margin-top: 0.75rem;
+}
+
+.resume-cta {
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 /* ── Contact ── */
